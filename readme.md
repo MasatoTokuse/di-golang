@@ -8,4 +8,4 @@
 http://localhost:8000/people
 
 # コンテナ内での操作
-`docker run --rm -it -p 8000:8000 --name di di/golang:1.0 /bin/bash`
+`docker run --rm -it -p 8000:8000 --name di -v /Users/masato/dev/golang/di/src:/go/src/github.com/MasatoTokuse/di di/golang:1.0 /bin/bash`
